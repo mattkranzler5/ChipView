@@ -173,7 +173,7 @@ public class ChipView extends ViewGroup implements Observer {
                     childView.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View v) {
-                            mListener.onChipClick(chip);
+                            mListener.onChipClick(v, chip);
                         }
                     });
                 }
